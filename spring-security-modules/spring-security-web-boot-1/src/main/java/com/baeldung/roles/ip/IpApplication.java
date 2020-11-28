@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@ComponentScan("com.baeldung.ip")
+@ComponentScan("com.baeldung.roles.ip")
 @PropertySource("classpath:application-defaults.properties")
 public class IpApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
